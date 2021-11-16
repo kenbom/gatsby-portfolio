@@ -1,4 +1,4 @@
-const data = [
+const pageLinks = [
   {
     id: 1,
     text: "home",
@@ -21,4 +21,4 @@ const data = [
   },
 ]
 
-export default data
+export default pageLinks
