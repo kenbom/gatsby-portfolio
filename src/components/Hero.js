@@ -8,13 +8,25 @@ const Hero = () => {
   return (
     <header className="hero">
       <section className="section-center hero-center">
-        <article className="hero-info"></article>
+        <article className="hero-info">
+          <div>
+            <div className="underline"></div>
+              <h1>i'm john</h1>
+              <h4>freelance web and mobile UI/UX Designer</h4>
+              <Link to="/contact" className="btn">
+                contact me
+              </Link>
+              <div className="social-links">
+
+              </div>
+            </div>
+        </article>
         <StaticImage
           src="../assets/images/hero.svg"
           alt="portfolio"
           className="hero-img"
           placeholder="blurred"
-        ></StaticImage>
+        />
       </section>
     </header>
   )
