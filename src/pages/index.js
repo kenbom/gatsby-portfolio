@@ -31,6 +31,7 @@ export const query = graphql`
         github
         pjid
         slug
+        title
         url
         image {
           url
