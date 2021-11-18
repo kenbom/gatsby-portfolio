@@ -20,6 +20,9 @@ module.exports = {
           {
             endpoint: "job",
           },
+          {
+            endpoint: "project",
+          },
         ],
       },
     },
